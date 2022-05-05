@@ -1,0 +1,29 @@
+import numpy as np import numpy.linalg as la
+print('identity(5) = \n', np.identity(5)) # square 5x5 matrix print('\neye(4, 5) = \n', np.eye(4, 5)) # 4x5 matrix
+print('\neye(4, 5, -1) = \n', np.eye(4, 5, -1)) # 1st lower diagonal
+print('\neye(4, 5, 2) = \n', np.eye(4, 5, 2)) # 2nd upper diagonal
+
+
+import numpy as np
+ 
+
+ 
+import numpy.linalg as la
+M = np.arange(1, 13).reshape(4, 3) print('M = \n', M)
+print('\ntriu(M) = \n', np.triu(M))
+print('\ntriu(M, -1) = \n', np.triu(M, -1))
+print('\ntril(M, 1) = \n', np.tril(M, 1))
+
+from flask import Flask
+app = Flask( name ) #creating the Flask class object
+
+@app.route('/') #decorator drfines the def home():
+return "hello, this is our first flask website"; if name ==' main ':
+app.run()
+
+from flask import Flask app = Flask( name )
+
+@app.route('/home/<name>') def home(name):
+return "hello,"+name; if name ==" main ":
+app.run()
+ 
