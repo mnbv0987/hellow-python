@@ -4,10 +4,10 @@ print('\neye(4, 5, -1) = \n', np.eye(4, 5, -1)) # 1st lower diagonal
 print('\neye(4, 5, 2) = \n', np.eye(4, 5, 2)) # 2nd upper diagonal
 
 
-import numpy as np
- 
 
  
+
+import numpy as np 
 import numpy.linalg as la
 M = np.arange(1, 13).reshape(4, 3) print('M = \n', M)
 print('\ntriu(M) = \n', np.triu(M))
